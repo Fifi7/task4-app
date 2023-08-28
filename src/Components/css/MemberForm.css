@@ -1,0 +1,103 @@
+.member-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; 
+  }
+  .image-input {
+    position: relative;
+    margin-bottom: 20px; 
+  }
+
+.back-icon {
+    font-size: 20px; 
+    color:  #164B60;
+    width: 67px;
+    height: 67px;
+    top: 21px;
+    left: 106px;
+    padding: 16.75px 13.958333015441895px 16.75px 11.166666984558105px
+  }
+
+  .list-arrow {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+  }
+ 
+.circular-image {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+
+  .add-image {
+    
+    background-color: #f0f0f0;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    width: 161px;
+    height: 161px;
+    top: 187px;
+    left: 530px;
+    border: 1px;
+  }
+
+  .circular-input-container {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    overflow: hidden;
+  }
+  
+  .circular-input {
+    display: none;
+  }
+  .preview-image {
+    border-radius: 50%;
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+  }
+
+  .preview-image img{
+    object-fit: cover;
+    border-radius: 50%;
+  }
+  .member-form .add-image img {
+    border-radius: 50%;
+    width: 161px;
+    height: 161px;
+    object-fit: cover;
+    
+  }
+  
+  .input-field {
+    margin-bottom: 15px;
+    width: 626px;
+    height: 61px;
+    top: 395px;
+    left: 327px;
+    box-shadow: 3px 3px 10px 0px #0000001A;
+  }
+  
+  .button {
+
+    width: Hug (127px);
+    height: Hug (35px);
+    top: 583px;
+    left: 541px;
+    padding: 10px 26px 10px 26px;
+    gap: 18px;
+    background: #164B60;
+    color: white;
+    text-decoration: none;
+
+  }
+  
+

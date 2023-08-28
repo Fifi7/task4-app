@@ -1,0 +1,84 @@
+.edit-member-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; 
+  }
+
+  .edit-image-input {
+    position: relative;
+    margin-bottom: 20px; 
+  }
+
+  .edit-preview-image {
+    border-radius: 50%;
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+  }
+
+  .edit-preview-image img{
+    object-fit: cover;
+    border-radius: 50%;
+  }
+
+  .edit-member-form .edit-image-input img {
+    border-radius: 50%;
+    width: 161px;
+    height: 161px;
+    object-fit: cover;
+    
+  }
+
+  .edit-input-field {
+    margin-bottom: 15px;
+    width: 626px;
+    height: 61px;
+    top: 395px;
+    left: 327px;
+    box-shadow: 3px 3px 10px 0px #0000001A;
+  }
+
+  .button {
+
+    width: Hug (127px);
+    height: Hug (35px);
+    top: 583px;
+    left: 541px;
+    padding: 10px 26px 10px 26px;
+    gap: 18px;
+    background: #164B60;
+    color: white;
+    text-decoration: none;
+  }
+
+.edit-back-arrow {
+    padding: 10px;
+    font-size: 24px; 
+    color:  #164B60;
+    width: 67px;
+    height: 67px;
+    padding: 16.75px 13.958333015441895px 16.75px 11.166666984558105px;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+  }
+  .edit-back-arrow a {
+    text-decoration: none; 
+    color: #164B60; 
+    font-size: 24px; 
+    width: 67px;
+    height: 67px;
+    padding: 16.75px 13.958333015441895px 16.75px 11.166666984558105px;
+
+  }
+  .back-arrow{
+    font-size: 20px; 
+    color:  #164B60;
+    width: 67px;
+    height: 67px;
+    top: 21px;
+    left: 106px;
+    padding: 16.75px 13.958333015441895px 16.75px 11.166666984558105px
+  }
